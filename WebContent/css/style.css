@@ -1,4 +1,9 @@
 @import url("bootstrap.min.css");
 
-.test {
+.main-navbar {
+  background-color: #668f80;
+}
+
+.main-content {
+  background-color: #faf0e6;
 }
