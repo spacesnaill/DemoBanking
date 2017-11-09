@@ -6,6 +6,7 @@
 		<script src="js/bootstrap.min.js"></script>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/login.css">
 		<title>Customer Login</title>
 	</head>
 	<body>
@@ -49,30 +50,51 @@
 			</div>
 		</nav>
 		<main>
-
-			<h4>
-				Please provide Login credentials :
-			</h4><br/>
-
-			<form action=login method=post>
-				User ID : &nbsp;<input type=text name=uname><br/><br/>
-				Password : &nbsp;<input type=password name=pword><br/><br/>
-				<input type=submit value=Login>
-				&nbsp;&nbsp;&nbsp;&nbsp;<input type=reset value=clear>
-
-			</form>
-		</main>
-		<footer class="bg-faded text-center py-5">
-			<div class="container">
-				<a href="#top">Back to Top</a>
+			<form class="" action="login" method="post">
+				<div class="container my-5">
+					<div class="row">
+						<div class="col-6">
+							<div class="form-login">
+								<h4>Welcome back.</h4>
+								<input type="text" name=uname id="userName" class="form-control input-sm chat-input" placeholder="username"/>
+							</br>
+							<input type="password" name=pword id="userPassword" class="form-control input-sm chat-input" placeholder="password"/>
+						</br>
+						<div class="wrapper">
+							<span class="group-btn">
+								<a href="#" class="btn btn-primary btn-md">login
+									<i class="fa fa-sign-in"></i>
+								</a>
+							</span>
+						</div>
+					</div>
+				</div>
 			</div>
-			<div class="container">
-				<p class="m-0">Copyright &copy; Bank World 2017</p>
-			</div>
-		</footer>
+		</div>
+	</form>
+	<!-- <h4>
+		Please provide Login credentials :
+	</h4><br/>
 
-		<!-- Bootstrap core JavaScript -->
-		<script src="vendor/jquery/jquery.min.js"></script>
-		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-	</body>
+	<form action=login method=post>
+		User ID : &nbsp;<input type=text name=uname><br/><br/>
+		Password : &nbsp;<input type=password name=pword><br/><br/>
+		<input type=submit value=Login>
+		&nbsp;&nbsp;&nbsp;&nbsp;<input type=reset value=clear>
+
+	</form> -->
+</main>
+<footer class="bg-faded text-center py-5">
+	<div class="container">
+		<a href="#top">Back to Top</a>
+	</div>
+	<div class="container">
+		<p class="m-0">Copyright &copy; Bank World 2017</p>
+	</div>
+</footer>
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
