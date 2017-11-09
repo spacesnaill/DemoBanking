@@ -4,11 +4,12 @@
 		<meta charset="ISO-8859-1">
 		<script src="js/jquery-3.2.1.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/style.css">
 		<title>Contact Us</title>
 	</head>
 	<body class="site-background">
-		<header>
+		<!-- <header>
 			<nav class="navbar navbar-dark navbar-expand-lg sticky-top main-navbar">
 				<a class="navbar-brand" href="bankhomepage.html">Bank</a>
 				<button type="button" name="navbarButton" class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,7 +31,7 @@
 
 				</div>
 			</nav>
-		</header>
+		</header> -->
 		<!-- <strong>
 			<a href=aboutus.html>About Us</a>
 		</strong>
@@ -46,15 +47,125 @@
 		<strong>
 			<a href=customerlogin.html>Customer Login</a>
 		</strong><br/> -->
+		<div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" id="top">Bank World</div>
+		<div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">101 Braddock Rd | Frostburg, MD | 21532</div>
+
+		<!-- Navigation -->
+		<nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+			<div class="container">
+				<a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav mx-auto">
+						<li class="nav-item px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="bankhomepage.html">Home
+							</a>
+						</li>
+						<li class="nav-item px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="aboutus.html">About</a>
+						</li>
+						<li class="nav-item px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+						</li>
+						<li class="nav-item active px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="contactus.html">Contact
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item  px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="careers.html">Careers
+
+							</a>
+						</li>
+						<li class="nav-item px-lg-4">
+							<a class="nav-link text-uppercase text-expanded" href="customerlogin.html">Customer Login</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 		<main class="container">
-			<h1>Contact Us</h1>
-			<p>Lorem ipsum dolor sit amet, ex reque viris vis, id nihil vituperata efficiantur vel. Ne congue euripidis sed, his ut voluptatum signiferumque, facer assum duo ad. Tota facete cum et, eu vel posse mundi omnium. Cu veniam recusabo nominati quo,
-				appareat elaboraret his an. Per no quod sumo erant, id ius postea malorum, sonet viderer percipitur pri id. Cu cum vocent abhorreant instructior, te quo tation consetetur. Vel iuvaret definiebas ei, ad ius eripuit forensibus, eros prompta appareat
-				pro cu. Ne per justo iudicabit. Sumo illum oportere at ius, per choro tacimates principes cu, eos eu etiam civibus. Et suas debitis alienum usu, vix cu tota scripta similique. Tale appetere adolescens eum ad, quis harum nobis et vix, cu enim movet
-				aliquid eum. No nec omnis mazim, cum tritani tacimates accusata ea, quod hendrerit cu his. Ne mel rebum nostrum vulputate, quo quod legendos persequeris no, decore soluta vivendo et eum. An mea mazim bonorum maiestatis, an nemore dissentiet per. Tale
-				tantas eam id, in errem labores democritum mei, nec odio accusamus vituperata et. Brute feugiat in cum, sint fugit scaevola usu et, in ius ipsum omnes dicant. Quo an impetus aliquip labores, et reque detraxit mea.</p>
+			<div class="container">
+
+				<div class="bg-faded p-4 my-4">
+					<hr class="divider">
+					<h2 class="text-center text-lg text-uppercase my-0">Contact
+						<strong>Bank World</strong>
+					</h2>
+					<hr class="divider">
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="embed-responsive embed-responsive-16by9 map-container mb-4 mb-lg-0">
+								<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCBY2jJ2a70ZMd0hoo-fjw2RSr3FfEoqx0
+    &q=39.6484° N, 78.9323° W"></iframe>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<h5 class="mb-0">Phone:</h5>
+							<div class="mb-4">+1-202-555-0159</div>
+							<h5 class="mb-0">Email:</h5>
+							<div class="mb-4">
+								<a href="mailto:pjgeiger0@frostburg.edu">pjgeiger0@frostburg.edu</a>
+							</div>
+							<h5 class="mb-0">Address:</h5>
+							<div class="mb-4">
+								101 Braddock Rd
+								<br>
+								Frostburg, MD 21532
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="bg-faded p-4 my-4">
+					<hr class="divider">
+					<h2 class="text-center text-lg text-uppercase my-0">Contact
+						<strong>Form</strong>
+					</h2>
+					<hr class="divider">
+					<form>
+						<div class="row">
+							<div class="form-group col-lg-4">
+								<label class="text-heading">Name</label>
+								<input type="text" class="form-control">
+							</div>
+							<div class="form-group col-lg-4">
+								<label class="text-heading">Email Address</label>
+								<input type="email" class="form-control">
+							</div>
+							<div class="form-group col-lg-4">
+								<label class="text-heading">Phone Number</label>
+								<input type="tel" class="form-control">
+							</div>
+							<div class="clearfix"></div>
+							<div class="form-group col-lg-12">
+								<label class="text-heading">Message</label>
+								<textarea class="form-control" rows="6"></textarea>
+							</div>
+							<div class="form-group col-lg-12">
+								<button type="submit" class="btn btn-secondary">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+
+			</div>
 		</main>
 
-		<footer></footer>
+		<footer class="bg-faded text-center py-5">
+			<div class="container">
+				<a href="#top">Back to Top</a>
+			</div>
+			<div class="container">
+				<p class="m-0">Copyright &copy; Bank World 2017</p>
+			</div>
+		</footer>
+
+		<!-- Bootstrap core JavaScript -->
+		<script src="vendor/jquery/jquery.min.js"></script>
+		<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 	</body>
 </html>
