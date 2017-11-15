@@ -1,27 +1,72 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>Customer Registration</title>
-</head>
-<body>
+  <head>
+    <meta charset="ISO-8859-1">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Customer Registration</title>
+  </head>
+  <body>
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-5 d-none d-lg-block" id="top">Bank World</div>
+    <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">101 Braddock Rd | Frostburg, MD | 21532</div>
 
-<form action=reg method=post>
-First Name <input type=text name=fname><br /><br />
-Last Name <input type=text name=lname><br /><br />
-D.O.B <input type=date name=bdate><br /><br />
-User Id <input type=text name=userid><br /><br />
-Password <input type=password name=pword><br /><br />
-Account No <input type=number name=actno><br /><br />
-Gender<input type=text name=gender><br /><br />
-Balance <input type =number name=bal><br /><br />
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+      <div class="container">
+        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Bank World</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="aboutus.html">About</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="contactus.html">Contact</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="careers.html">Careers</a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="customerlogin.html">Customer Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <form action=reg method=post>
+      First Name
+      <input type=text name=fname><br/><br/>
+      Last Name
+      <input type=text name=lname><br/><br/>
+      D.O.B
+      <input type=date name=bdate><br/><br/>
+      User Id
+      <input type=text name=userid><br/><br/>
+      Password
+      <input type=password name=pword><br/><br/>
+      Account No
+      <input type=number name=actno><br/><br/>
+      Gender<input type=text name=gender><br/><br/>
+      Balance
+      <input type=number name=bal><br/><br/>
 
+      <input type=submit>
+      <input type=reset>
 
-
-<input type=submit> <input type=reset>
-
-
-</form>
-
-</body>
+    </form>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
