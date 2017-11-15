@@ -13,44 +13,47 @@
     <div class="tagline-lower text-center text-expanded text-shadow text-uppercase text-white mb-5 d-none d-lg-block">101 Braddock Rd | Frostburg, MD | 21532</div>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
-      <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Bank World</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="aboutus.html">About</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="contactus.html">Contact</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="careers.html">Careers</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="customerlogin.html">Customer Login</a>
-            </li>
-          </ul>
+    <header>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-faded py-lg-4">
+        <div class="container">
+          <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Bank World</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item active px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="aboutus.html">About</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="contactus.html">Contact</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="careers.html">Careers</a>
+              </li>
+              <li class="nav-item px-lg-4">
+                <a class="nav-link text-uppercase text-expanded" href="customerlogin.html">Customer Login</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-    <strong>
-      <!-- <a href=http://localhost:8012/DemoBanking/welcome>Home</a>
+      </nav>
+    </header>
+    <!-- <strong> -->
+    <!-- <a href=http://localhost:8012/DemoBanking/welcome>Home</a>
 
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href=logout>Log out</a><br/></strong> -->
 
-      <h4>Funds Transfer with in Bank :</h4>
+    <!-- <h4>Funds Transfer with in Bank :</h4>
 
       <form action=ftwithin method=post>
         Recipient Account No
@@ -61,9 +64,45 @@
         <input type=submit value=Transfer>&nbsp;&nbsp;&nbsp;&nbsp;
         <input type=reset value=clear>
 
-      </form>
-
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-    </body>
-  </html>
+      </form> -->
+    <main class="container">
+      <div class="container">
+        <div class="bg-faded p-4 my-4">
+          <hr class="divider">
+          <h2 class="text-center text-lg text-uppercase my-0">Tranfers Funds to
+            <strong>Another Account</strong>
+          </h2>
+          <hr class="divider">
+          <form>
+            <div class="row">
+              <div class="form-group col-lg-12">
+                <label class="text-heading">Recipient Account Number</label>
+                <input type="number" class="form-control">
+              </div>
+              <div class="form-group col-lg-12">
+                <label class="text-heading">Amount to be Transfered</label>
+                <input type="number" class="form-control">
+              </div>
+              <div class="form-group col-lg-12">
+                <button type="submit" class="btn btn-secondary">Submit</button>
+              </div>
+              <div class="form-group col-lg-12">
+                <button type="reset" class="btn btn-secondary">Reset</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-faded text-center py-5 fixed-bottom">
+      <div class="container">
+        <a href="#top">Back to Top</a>
+      </div>
+      <div class="container">
+        <p class="m-0">Copyright &copy; Bank World 2017</p>
+      </div>
+    </footer>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
